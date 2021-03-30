@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #cfdada;
+    font-family: sans-serif;
+    
+    
+}
+.signup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 30px;
+    width: 400px;
+    height: 580px;
+    box-sizing: border-box;
+    background-color: #bbd5d8;
+    color: #000;
+    box-shadow: 8px 8px 50px #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+.user2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+   left: calc(50% - 50px);
+}
+
+h2{
+    margin: 0px;
+    padding: 0 0 20px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.signup p{
+    
+    font-weight: bold;
+    color: #000;
+
+}
+
+.signup input{
+    width: 100%;
+    margin-bottom: 5px;
+    
+   
+
+}
+.signup input[type="text"],
+.signup input[type="password"],
+.signup input[type="email"]
+{
+   
+    border: none;
+    border: 1px solid #f1f1f1;
+    
+    outline: none;
+    height: 20px;
+    color: #000;
+    font-size: 14px;
+    opacity: 1px;
+    border-radius: 20px;
+    width: 100%;
+
+background-color: #f1f1f1;
+}
+::placeholder{
+    color: rgba(149, 150, 153, 0.5);
+   }
+   .signup input[type="submit"]
+   {
+       border: none;
+       outline: none;
+       height: 30px;
+       color: #cfdada;
+       font-size: 14px;
+       background: #071d80;
+       cursor: pointer;
+       border-radius: 20px;
+       font-weight: bold;
+ 
+
+
+   
+   }
+   .signup input[type="submit"]:hover
+   {
+       background:#cfdada ;
+       color: #000;
+   }
+   .signup a{
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    opacity: 0.5;
+}
+.signup  a:hover{
+    color: rgb(26, 25, 25);
+    opacity: 1;
+}
+.in input{
+    width: 5%;
+float: left;
+
+}
+.in {
+    font-size: 12px;
+    opacity: 0.5;
+}
+/*button{
+    color: #000;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin: 10px 0;
+
+}*/
+
