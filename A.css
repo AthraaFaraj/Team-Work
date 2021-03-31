@@ -1,8 +1,13 @@
+body {
+    background-color: #ffffff;
+    border-image: 0px;
+}
+
 .a {
     background: #415ab0;
     text-align: center;
-    padding: 2px;
-    margin: 6px;
+    padding: 1px;
+    margin: 4px;
 }
 
 ul {
@@ -29,10 +34,14 @@ td {
     text-align: center;
 }
 
-img {
+.aaa {
     border: solid 4px;
     color: #415ab0;
-    width: 350px;
-    margin: 4px;
+    width: 300px;
+    margin: 3px;
     margin-left: 450px;
+}
+
+#id contact-box img {
+    float: left;
 }
